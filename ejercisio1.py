@@ -1,12 +1,13 @@
-class estudiante:
-    def __init__(self, nombre, edad, programa, semestre):
-        self.nombre = input("Ingrese el nombre del estudiante: ")
-        self.edad = input("Ingrese la edad del estudiante: ")
-        self.programa = input("Ingrese el programa del estudiante: ")
-        self.semestre = input("Ingrese el semestre del estudiante: ")
+# ejercisio1.py
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+programa = input("Ingrese su programa académico: ")
+semestre = int(input("Ingrese su semestre: "))
 
-    def mostrar_informacion(self):
-        print(f"Nombre: {self.nombre}")
-        print(f"Edad: {self.edad}")
-        print(f"Programa: {self.programa}")
-        print(f"Semestre: {self.semestre}")
+print("=================================")
+print("     INFORMACIÓN DEL ESTUDIANTE")
+print("=================================")
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Programa:", programa)
+print("Semestre:", semestre)
