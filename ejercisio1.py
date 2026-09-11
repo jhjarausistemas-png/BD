@@ -11,3 +11,9 @@ print("Nombre:", nombre)
 print("Edad:", edad)
 print("Programa:", programa)
 print("Semestre:", semestre)
+
+# ¿qué tipos de datos utilizó para cada variable?
+# - nombre: str (cadena de caracteres)
+# - edad: int (entero)
+# - programa: str (cadena de caracteres)
+# - semestre: int (entero)
