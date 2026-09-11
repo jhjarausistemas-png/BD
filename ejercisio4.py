@@ -1,4 +1,5 @@
 #ejercisio4
+#funciones y calculadora
 def suma(a,b):
     return a + b
 
